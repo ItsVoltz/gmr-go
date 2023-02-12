@@ -1,3 +1,12 @@
+# gmr-go
+
+A Go implementation of the GMR Lua encryption API
+
+
+## Installation
+```bash
+go get github.com/ItsVoltz/gmr-go
+```
 
 ## Usage/Examples
 
