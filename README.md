@@ -1,14 +1,4 @@
 
-# gmr-go
-
-A Go implementation of the GMR Lua encryption API
-
-
-## Installation
-```bash
-go get github.com/ItsVoltz/gmr-go
-```
-
 ## Usage/Examples
 
 ```go
@@ -28,3 +18,16 @@ function main() {
     }
 }
 ```
+
+## CLI Tool
+#### Alternatively you can use the CLI tool to encrypt your GMR scripts. ([Download release here](https://github.com/ItsVoltz/gmr-go/releases/tag/CLI-Tool))
+Via command line:
+```bash
+./gmr path/to/my/script.lua
+```
+Via command line with custom destination:
+```bash
+./gmr path/to/my/script.lua path/to/destination/script_encrypted.lua
+```
+
+If you are on windows you can also drag and drop a script onto the executable and it will automatically encrypt that file for you.
